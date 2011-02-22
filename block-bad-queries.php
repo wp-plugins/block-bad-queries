@@ -6,8 +6,6 @@ Tags: security, protect, firewall, php, eval, malicious, url, request, block
 Author URI: http://perishablepress.com/
 Author: Perishable Press
 Version: 1.0
-
-Copyright (c) 2010 Jeff Starr - <http://perishablepress.com/>
   
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -26,15 +24,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 global $user_ID; if($user_ID) {
 	if(!current_user_can('level_10')) {
 		if (strlen($_SERVER['REQUEST_URI']) > 255 || 
-			strpos($_SERVER['REQUEST_URI'], "eval(") || 
-			strpos($_SERVER['REQUEST_URI'], "CONCAT") || 
-			strpos($_SERVER['REQUEST_URI'], "UNION+SELECT") || 
-			strpos($_SERVER['REQUEST_URI'], "base64")) {
+			stripos($_SERVER['REQUEST_URI'], "eval(") || 
+			stripos($_SERVER['REQUEST_URI'], "CONCAT") || 
+			stripos($_SERVER['REQUEST_URI'], "UNION+SELECT") || 
+			stripos($_SERVER['REQUEST_URI'], "base64")) {
 				@header("HTTP/1.1 414 Request-URI Too Long");
 				@header("Status: 414 Request-URI Too Long");
 				@header("Connection: Close");
 				@exit;
 		}
 	}
-}
-?>
+} ?>

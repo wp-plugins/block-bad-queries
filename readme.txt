@@ -8,7 +8,7 @@ Author URI: http://perishablepress.com/
 Author: Perishable Press
 Donate link: http://digwp.com/book/
 Requires at least: 2.3
-Tested up to: 2.9
+Tested up to: 3.0.5
 Stable tag: 1.0
 Version: 1.0
 
@@ -16,13 +16,11 @@ Version: 1.0
 
 Description: Protect WordPress Against Malicious URL Requests 
 
-Many WordPress sites gets attacked with extremely malicious code, fortunately Jeff Starr wrote a simple script that checks for excessively long request strings (i.e., greater than 255 characters), as well as the presence of either eval( or base64 in the request URI.
+Block Bad Queries (BBQ) checks for excessively long request strings (i.e., greater than 255 characters), as well as the presence of either "eval(" or "base64" in the request URI. These sorts of nefarious requests were implicated in the September 2009 WordPress attacks.
 
 == Installation ==
 
-To protect your site using this lightweight script, simply unzip the zip file, it only has one folder with three files inside it.  Now, upload that folder and it's contents to your WP plugin directory. 
-
-Then to activate it, log into your WordPress Admin area and go to the installed plugins page, look for "Block Bad Queries" and click on Activate. That's it! 
+To protect your site using this lightweight plugin, unzip and upload the "block-bad-queries" folder and contents to your plugin directory and activate via the WP Admin.
 
 Once active, this plugin will silently and effectively close any connections for these sorts of injection-type attacks.
 
@@ -36,6 +34,7 @@ No screenshots available - code only.
 
 == Changelog ==
 
+2011/02/21 - Updated readme.txt file
 2009/12/30 - Additional request strings added
 2009/12/30 - Added check for admin users
 
