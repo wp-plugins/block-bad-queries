@@ -1,6 +1,5 @@
 === Plugin Name ===
 
-Contributors: Jeff Starr
 Plugin Name: Block Bad Queries (BBQ)
 Plugin URI: http://perishablepress.com/press/2009/12/22/protect-wordpress-against-malicious-url-requests/
 Tags: security, protect, firewall, php, eval, malicious, url, request, block
