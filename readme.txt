@@ -43,4 +43,4 @@ A: Nope, just install and relax knowing that BBQ is protecting your site from ba
 
 == Donations ==
 
-To support this and other plugins, consider buying a copy of our book, [Digging into WordPress](http://digwp.com/). Thanks! :)
+To support this and other plugins, consider buying a copy of our book, [Digging into WordPress](http://digwp.com/). Links, tweets and likes also appreciated. Thanks! :)
