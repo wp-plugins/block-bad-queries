@@ -6,7 +6,7 @@ Description: Automatically protects WordPress against malicious URL requests.
 Tags: security, protect, firewall, php, eval, malicious, url, request, blacklist
 Author URI: http://monzilla.biz/
 Author: Jeff Starr
-Contributors: Aldo Latino, John Hoff, James Wilkes
+Contributors: Jeff Starr, Aldo Latino, John Hoff, James Wilkes
 Donate link: http://digwp.com/book/
 Requires at least: 3.0
 Tested up to: 3.4.2
