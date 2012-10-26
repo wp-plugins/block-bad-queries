@@ -1,4 +1,4 @@
-=== Plugin Name ===
+=== BBQ: Block Bad Queries ===
 
 Plugin Name: Block Bad Queries (BBQ)
 Plugin URI: http://perishablepress.com/block-bad-queries/
@@ -14,17 +14,25 @@ Stable tag: 20121026
 Version: 20121026
 License: GPLv2 or later
 
+Block Bad Queries (BBQ) helps protect WordPress against malicious URL requests. 
+
 == Description ==
 
-Block Bad Queries (BBQ) helps protect WordPress against malicious URL requests. For example, BBQ checks for excessively long request strings (i.e., greater than 255 characters), as well as the presence of either "eval(" or "base64" in the request URI. These sorts of nefarious requests were implicated in the September 2009 WordPress attacks, and continue to threaten websites around the Web.
+[Block Bad Queries (BBQ)](http://perishablepress.com/block-bad-queries/) is a simple script that protects your website against malicious URL requests. BBQ checks all incoming traffic and quietly blocks bad requests containing nasty stuff like eval(, base64_, and excessively long request-strings. This is a simple yet solid solution that works great for sites where .htaccess is not available. The BBQ script is available as a plugin for WordPress or standalone script for any PHP-powered website.
+
+Features include:
+
+* Plug-n-play functionality
+* No configuration required
+* Born of simplicity, no frills
+* Blocks a wide range of malicious requests
+* Based on the [5G/6G Blacklist](http://perishablepress.com/6g-beta/)
+* Scans all incoming traffic and blocks bad requests
+* Works silently behind the scenes to protect your site
 
 == Installation ==
 
-No configuration necessary. Upload, activate and done. BBQ blocks bad queries automically to protect your site against malicious URL requests.
-
-To protect your site using this lightweight plugin, unzip and upload the "block-bad-queries" folder and contents to your plugin directory and activate via the WP Admin.
-
-Once active, this plugin will silently and effectively close any connections for these sorts of injection-type attacks.
+To protect your site using this lightweight plugin, unzip and upload the "/block-bad-queries/" folder and contents to your plugin directory and activate via the WP Admin. No configuration necessary. Upload, activate and done. BBQ blocks bad queries automically to protect your site against malicious URL requests. Once active, this plugin will silently and effectively close any connections for these sorts of injection-type attacks.
 
 == Upgrade Notice ==
 
@@ -36,20 +44,23 @@ No screenshots available - code only.
 
 == Changelog ==
 
-2011/02/21 - Updated readme.txt file
-2009/12/30 - Additional request strings added
-2009/12/30 - Added check for admin users
-2012/10/25 - Rebuilt plugin using 5G/6G technology
+* 2012/10/26 - Rebuilt plugin using 5G/6G technology
+* 2011/02/21 - Updated readme.txt file
+* 2009/12/30 - Added check for admin users
+* 2009/12/30 - Additional request strings added
 
 == Frequently Asked Questions ==
 
-Q: Do I need to do anything else for BBQ to work?
-A: Nope, just install and relax knowing that BBQ is protecting your site from bad URL requests.
+= Do I need to do anything else for BBQ to work? =
 
-To ask a question, visit the BBQ homepage @ http://perishablepress.com/block-bad-queries/ or contact me @ http://perishablepress.com/contact/
+Nope, just install and relax knowing that BBQ is protecting your site from bad URL requests.
+
+= Got a question? =
+
+To ask a question, visit the [BBQ homepage](http://perishablepress.com/block-bad-queries/) or [contact me](http://perishablepress.com/contact/).
 
 == Donations ==
 
-I created this plugin with love for the WP community. To show support, consider purchasing my new book, ".htaccess made easy" @ http://htaccessbook.com/, or my WordPress book, "Digging into WordPress" @ http://digwp.com/ 
+I created this plugin with love for the WP community. To show support, consider purchasing my new book, [.htaccess made easy](http://htaccessbook.com/), or my WordPress book, [Digging into WordPress](http://digwp.com/).
 
 Links, tweets and likes also appreciated. Thanks! :)
