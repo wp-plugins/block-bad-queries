@@ -10,8 +10,8 @@ Contributors: Jeff Starr, Aldo Latino, John Hoff, James Wilkes
 Donate link: http://digwp.com/book/
 Requires at least: 3.0
 Tested up to: 3.4.2
-Stable tag: 20121026
-Version: 20121026
+Stable tag: 20121027
+Version: 20121027
 License: GPLv2 or later
 
 Block Bad Queries (BBQ) helps protect WordPress against malicious URL requests. 
@@ -44,6 +44,7 @@ No screenshots available - code only.
 
 == Changelog ==
 
+* 2012/10/27 - Disabled check for long strings, disabled check for scanner
 * 2012/10/26 - Rebuilt plugin using 5G/6G technology
 * 2011/02/21 - Updated readme.txt file
 * 2009/12/30 - Added check for admin users
