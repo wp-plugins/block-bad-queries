@@ -20,7 +20,7 @@ Block Bad Queries (BBQ) helps protect WordPress against malicious URL requests.
 
 [Block Bad Queries (BBQ)](http://perishablepress.com/block-bad-queries/) is a simple script that protects your website against malicious URL requests. BBQ checks all incoming traffic and quietly blocks bad requests containing nasty stuff like eval(, base64_, and excessively long request-strings. This is a simple yet solid solution that works great for sites where .htaccess is not available. The BBQ script is available as a plugin for WordPress or standalone script for any PHP-powered website.
 
-Features include:
+**Features include**
 
 * Plug-n-play functionality
 * No configuration required
@@ -50,7 +50,7 @@ No screenshots available - code only.
 * removed block for "environ" in query-string
 * removed block for "%3C" and "%3E" in query-string
 * removed block for "%22" and "%27" in query-string
-* removed block for "[" and "]" in query-string (to allow unsafe character used in WordPress)
+* removed block for "[" and "]" in query-string (to allow unsafe characters used in WordPress)
 * removed block for "?" in query-string (to allow unsafe character used in WordPress)
 * removed block for ":" in query-string (to allow unsafe character used by Google)
 * removed block for "libwww" in user-agents (to allow access to Lynx browser)
