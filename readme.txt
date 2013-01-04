@@ -44,14 +44,12 @@ No screenshots available - code only.
 
 == Changelog ==
 
-** 2013/01/03 **
+**2013/01/03**
 
 Request URI:
-
 * removed block for CONCAT
 
 Query-String:
-
 * removed block for environ
 * removed block for %3C, %3E
 * removed block for %22 and %27
@@ -60,16 +58,15 @@ Query-String:
 * removed block for : (to allow unsafe character used by Google)
 
 User-Agents:
-
 * removed block for libwww (to allow access to Lynx browser)
 
-** 2012/11/08 **
+**2012/11/08**
 
 * Removed ":" match from query string (Google disregards encoding)
 * Removed "scanner" from query string from query string match
 * Streamlined source code for better performance (thanks to juliobox)
 
-** Older versions **
+**Older versions**
 
 * 2012/10/27 - Disabled check for long strings, disabled check for scanner
 * 2012/10/26 - Rebuilt plugin using 5G/6G technology
