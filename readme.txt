@@ -46,19 +46,14 @@ No screenshots available - code only.
 
 **2013/01/03**
 
-Request URI:
-* removed block for CONCAT
-
-Query-String:
-* removed block for environ
-* removed block for %3C, %3E
-* removed block for %22 and %27
-* removed block for [ and ] (to allow unsafe character used in WordPress)
-* removed block for ? (to allow unsafe character used in WordPress)
-* removed block for : (to allow unsafe character used by Google)
-
-User-Agents:
-* removed block for libwww (to allow access to Lynx browser)
+* removed block for CONCAT in request-URI
+* removed block for "environ" in query-string
+* removed block for "%3C" and "%3E" in query-string
+* removed block for "%22" and "%27" in query-string
+* removed block for "[" and "]" in query-string (to allow unsafe character used in WordPress)
+* removed block for "?" in query-string (to allow unsafe character used in WordPress)
+* removed block for ":" in query-string (to allow unsafe character used by Google)
+* removed block for "libwww" in user-agents (to allow access to Lynx browser)
 
 **2012/11/08**
 
