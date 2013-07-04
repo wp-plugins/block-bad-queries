@@ -7,11 +7,11 @@ Tags: security, protect, firewall, php, eval, malicious, url, request, blacklist
 Author URI: http://monzilla.biz/
 Author: Jeff Starr
 Contributors: specialk, aldolat, WpBlogHost, James Wilkes, juliobox
-Donate link: http://digwp.com/book/
+Donate link: http://wp-tao.com/
 Requires at least: 3.0
 Tested up to: 3.5
-Stable tag: 20130103
-Version: 20130103
+Stable tag: 20130704
+Version: 20130704
 License: GPLv2 or later
 
 Block Bad Queries (BBQ) helps protect WordPress against malicious URL requests. 
@@ -43,6 +43,13 @@ To upgrade BBQ, remove old version and replace with new version. Nothing else ne
 No screenshots available - code only.
 
 == Changelog ==
+
+**2013/07/04**
+
+* removed block for "jakarta" in user-agents
+* removed "union" from query strings
+* added to request-URI: "\%2Flocalhost", "Nt\.", "https\:", "\.exec\(", "\)\.html\(", "\{x\.html\(", "\(function\("
+* resolved PHP Notice "Undefined Index" via isset()
 
 **2013/01/03**
 
