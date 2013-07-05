@@ -8,15 +8,15 @@ Usage: No configuration necessary. Upload, activate and done. BBQ blocks bad que
 Author: Jeff Starr
 Author URI: http://monzilla.biz/
 Contributors: specialk, aldolat, WpBlogHost, James Wilkes, juliobox
-Donate link: http://wp-tao.com/
+Donate link: http://m0n.co/donate
 Requires at least: 3.0
 Tested up to: 3.5
-Stable tag: 20130704
-Version: 20130704
+Stable tag: 20130705
+Version: 20130705
 License: GPLv2 or later
 */
 
-$request_uri_array  = apply_filters( 'request_uri_items',  array( 'eval\(', 'UNION\+SELECT', '\(null\)', 'base64_', '\/localhost', '\%2Flocalhost', '\/pingserver', '\/config\.', '\/wwwroot', '\/makefile', 'crossdomain\.', 'proc\/self\/environ', 'etc\/passwd', '\/https\/', '\/http\/', '\/ftp\/', '\/cgi\/', '\.cgi', '\.exe', '\.sql', '\.ini', '\.dll', '\.asp', '\.jsp', '\/\.bash', '\/\.git', '\/\.svn', '\/\.tar', ' ', '\<', '\>', '\/\=', '\.\.\.', '\+\+\+', '\:\/\/', '\/&&', 'Nt\.', 'https\:', '\.exec\(', '\)\.html\(', '\{x\.html\(', '\(function\(' ) );
+$request_uri_array  = apply_filters( 'request_uri_items',  array( 'eval\(', 'UNION\+SELECT', '\(null\)', 'base64_', '\/localhost', '\%2Flocalhost', '\/pingserver', '\/config\.', '\/wwwroot', '\/makefile', 'crossdomain\.', 'proc\/self\/environ', 'etc\/passwd', '\/https\:', '\/http\:', '\/ftp\:', '\/cgi\/', '\.cgi', '\.exe', '\.sql', '\.ini', '\.dll', '\.asp', '\.jsp', '\/\.bash', '\/\.git', '\/\.svn', '\/\.tar', ' ', '\<', '\>', '\/\=', '\.\.\.', '\+\+\+', '\:\/\/', '\/&&', 'Nt\.', '\.exec\(', '\)\.html\(', '\{x\.html\(', '\(function\(' ) );
 $query_string_array = apply_filters( 'query_string_items', array( '\.\.\/', '127\.0\.0\.1', 'localhost', 'loopback', '\%0A', '\%0D', '\%00', '\%2e\%2e', 'input_file', 'execute', 'mosconfig', 'path\=\.', 'mod\=\.' ) );
 $user_agent_array   = apply_filters( 'user_agent_items',   array( 'binlar', 'casper', 'cmswor', 'diavol', 'dotbot', 'finder', 'flicky', 'nutch', 'planet', 'purebot', 'pycurl', 'skygrid', 'sucker', 'turnit', 'vikspi', 'zmeu' ) );
 

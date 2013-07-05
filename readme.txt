@@ -7,11 +7,11 @@ Tags: security, protect, firewall, php, eval, malicious, url, request, blacklist
 Author URI: http://monzilla.biz/
 Author: Jeff Starr
 Contributors: specialk, aldolat, WpBlogHost, James Wilkes, juliobox
-Donate link: http://wp-tao.com/
+Donate link: http://m0n.co/donate
 Requires at least: 3.0
 Tested up to: 3.5
-Stable tag: 20130704
-Version: 20130704
+Stable tag: 20130705
+Version: 20130705
 License: GPLv2 or later
 
 Block Bad Queries (BBQ) helps protect WordPress against malicious URL requests. 
@@ -43,6 +43,13 @@ To upgrade BBQ, remove old version and replace with new version. Nothing else ne
 No screenshots available - code only.
 
 == Changelog ==
+
+**2013/07/05**
+
+* removed "https\:" (from previous version)
+* replaced "\/https\/" with "\/https\:"
+* replaced "\/http\/" with "\/http\:"
+* replaced "\/ftp\/" with "\/ftp\:"
 
 **2013/07/04**
 
@@ -88,6 +95,6 @@ To ask a question, visit the [BBQ homepage](http://perishablepress.com/block-bad
 
 == Donations ==
 
-I created this plugin with love for the WP community. To show support, consider purchasing my new book, [.htaccess made easy](http://htaccessbook.com/), or my WordPress book, [Digging into WordPress](http://digwp.com/).
+I created this plugin with love for the WP community. To show support, consider purchasing one of my books: [The Tao of WordPress](http://wp-tao.com/), [Digging into WordPress](http://digwp.com/), or [.htaccess made easy](http://htaccessbook.com/).
 
 Links, tweets and likes also appreciated. Thanks! :)
