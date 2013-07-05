@@ -44,6 +44,8 @@ No screenshots available - code only.
 
 == Changelog ==
 
+Note: refer to the plugin's readme.txt for a more accurate changelog.
+
 **2013/07/05**
 
 * removed "https\:" (from previous version)
