@@ -10,8 +10,8 @@ Contributors: specialk, aldolat, WpBlogHost, James Wilkes, juliobox
 Donate link: http://m0n.co/donate
 Requires at least: 3.0
 Tested up to: 3.5
-Stable tag: 20130705
-Version: 20130705
+Stable tag: 20130707
+Version: 20130707
 License: GPLv2 or later
 
 Block Bad Queries (BBQ) helps protect WordPress against malicious URL requests. 
@@ -44,7 +44,9 @@ No screenshots available - code only.
 
 == Changelog ==
 
-Note: refer to the plugin's readme.txt for a more accurate changelog.
+**2013/07/07**
+
+* replaced "Nt\." with "\/Nt\." (resolves comment editing/approval issue)
 
 **2013/07/05**
 
