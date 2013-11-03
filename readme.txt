@@ -9,9 +9,9 @@ Author: Jeff Starr
 Contributors: specialk, aldolat, WpBlogHost, James Wilkes, juliobox
 Donate link: http://m0n.co/donate
 Requires at least: 3.0
-Tested up to: 3.5
-Stable tag: 20130707
-Version: 20130707
+Tested up to: 3.7
+Stable tag: 20131103
+Version: 20131103
 License: GPLv2 or later
 
 Block Bad Queries (BBQ) helps protect WordPress against malicious URL requests. 
@@ -43,6 +43,14 @@ To upgrade BBQ, remove old version and replace with new version. Nothing else ne
 No screenshots available - code only.
 
 == Changelog ==
+
+**2013/11/03**
+
+* removed "?>" from script
+* added optional line for blocking long URLs
+* added line to prevent direct access to BBQ script
+* added "\;Nt\.", "\=Nt\.", "\,Nt\." to request URI items
+* tested on latest version of WordPress (3.7)
 
 **2013/07/07**
 
