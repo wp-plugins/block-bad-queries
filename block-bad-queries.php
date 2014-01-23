@@ -10,9 +10,9 @@ Author URI: http://monzilla.biz/
 Contributors: specialk, aldolat, WpBlogHost, James Wilkes, juliobox
 Donate link: http://m0n.co/donate
 Requires at least: 3.0
-Tested up to: 3.7
-Stable tag: 20131103
-Version: 20131103
+Tested up to: 3.8
+Stable tag: trunk
+Version: 20140123
 License: GPLv2 or later
 */
 
@@ -37,3 +37,12 @@ if (
 	header('Connection: Close');
 	exit;
 }
+
+function rate_bbq($links, $file) {
+	if ($file == plugin_basename(__FILE__)) {
+		$rate_url = 'http://wordpress.org/support/view/plugin-reviews/' . basename(dirname(__FILE__)) . '?rate=5#postform';
+		$links[] = '<a href="' . $rate_url . '" target="_blank" title="Click here to rate and review this plugin on WordPress.org">Rate this plugin</a>';
+	}
+	return $links;
+}
+add_filter('plugin_row_meta', 'rate_bbq', 10, 2);
