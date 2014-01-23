@@ -47,7 +47,7 @@ No screenshots available - code only.
 **2014/01/23**
 
 * tested on latest version of WordPress (3.8)
-* added link to rate plugin
+* added link to rate plugin :)
 
 **2013/11/03**
 
