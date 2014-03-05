@@ -11,7 +11,7 @@ Donate link: http://m0n.co/donate
 Requires at least: 3.0
 Tested up to: 3.8
 Stable tag: trunk
-Version: 20140123
+Version: 20140305
 License: GPLv2 or later
 
 Block Bad Queries (BBQ) helps protect WordPress against malicious URL requests. 
@@ -44,10 +44,14 @@ No screenshots available - code only.
 
 == Changelog ==
 
+**2014/03/05**
+
+* Bugfix: added conditional checks for empty variables
+
 **2014/01/23**
 
 * tested on latest version of WordPress (3.8)
-* added link to rate plugin :)
+* added link to rate plugin
 
 **2013/11/03**
 
