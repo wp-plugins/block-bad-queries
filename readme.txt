@@ -46,7 +46,7 @@ No screenshots available - code only.
 
 **2014/09/22**
 
-* tested on latest version of WordPress (3.8)
+* tested on latest version of WordPress (4.0)
 * retested on Multisite
 * increased minimum version requirement to WP 3.7
 
