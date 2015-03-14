@@ -30,6 +30,7 @@ Block Bad Queries (BBQ) helps protect WordPress against malicious URL requests.
 * Based on the [5G/6G Blacklist](http://perishablepress.com/6g-beta/)
 * Scans all incoming traffic and blocks bad requests
 * Works silently behind the scenes to protect your site
+* New! Customize blocked strings via [BBQ Whitelist/Blacklist plugins](http://perishablepress.com/bbq-whitelist-blacklist/)
 
 == Installation ==
 
